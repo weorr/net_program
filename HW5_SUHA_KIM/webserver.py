@@ -1,7 +1,7 @@
 from socket import *
 
 s = socket()
-s.bind(('', 81))
+s.bind(('', 82))
 s.listen(10)
 
 while True:
